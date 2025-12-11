@@ -1,0 +1,7 @@
+{
+    "bot_token": "YOUR_BOT_TOKEN_HERE",
+    "owner_id": 0,
+    "arbcom_group_id": -1000000000000,
+    "archive_channel_id": -1000000000000,
+    "proxy_url": ""
+}
