@@ -17,8 +17,8 @@ A Python-based Telegram bot with SQLite database integration, featuring motion t
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/Borschts/arbcom-telegram-bot
+cd arbcom-telegram-bot
 ```
 
 ### 2. Set Up Virtual Environment (Recommended)
