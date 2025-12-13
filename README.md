@@ -78,3 +78,30 @@ sudo systemctl start telegrambot
 ```bash
 sudo systemctl status telegrambot
 ```
+
+## Alternative Deployment (No Sudo / Screen)
+
+If you don't have `sudo` access, you can use `screen` to keep the bot running in the background.
+
+1.  **Start a new screen session**:
+    ```bash
+    screen -S telegram_bot
+    ```
+
+2.  **Run the bot**:
+    ```bash
+    # Ensure you are in the bot directory and venv is active
+    source venv/bin/activate
+    python bot.py
+    ```
+
+3.  **Detach** from the screen session (leave it running) by pressing:
+    `Ctrl` + `A`, then `D`.
+
+4.  **To return** to the bot console later:
+    ```bash
+    screen -r telegram_bot
+    ```
+
+5.  **To stop** the bot:
+    Resume the screen (`screen -r telegram_bot`), press `Ctrl` + `C`, and then type `exit` to close the screen.
