@@ -11,6 +11,7 @@ PAGE_TITLES = [
     "Wikipedia:仲裁/請求",
     "Wikipedia:仲裁/請求/動議",
     "Wikipedia:仲裁/請求/案件"
+    "Wikipedia:仲裁/請求/執行及復議"
 ]
 STREAM_URL = "https://stream.wikimedia.org/v2/stream/recentchange"
 
